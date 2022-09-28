@@ -16,6 +16,11 @@ repositories {
 }
 
 dependencies {
+
+	implementation(platform("org.axonframework:axon-bom:4.6.0"))
+	implementation("org.axonframework:axon-spring-boot-starter")
+	implementation("org.axonframework:axon-test")
+	
 	implementation("org.springframework.boot:spring-boot-starter")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
